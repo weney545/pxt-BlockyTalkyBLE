@@ -2,6 +2,7 @@
     "name": "BlockyTalky-BLE",
     "version": "0.0.21",
     "description": "A key-value pair Bluetooth service for BlockyTalky",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
         "bluetooth": "*"
@@ -18,6 +19,15 @@
     "testFiles": [
         "test.ts"
     ],
+    "public": true,
+    "targetVersions": {
+        "target": "8.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
     "yotta": {
         "optionalConfig": {
             "microbit-dal": {
@@ -27,7 +37,5 @@
                 }
             }
         }
-    },
-    "public": true,
-    "license": "MIT"
+    }
 }
